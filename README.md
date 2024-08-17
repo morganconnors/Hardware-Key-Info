@@ -76,6 +76,15 @@ Alternatively, if you don't want to use the ```-S``` flag every time, you can te
 git config --global commit.gpgsign true
 ```
 
+## Important Note
+
+When doing this, especially with Github, you need to make sure you successfully configured your user name and user email or else Github might mark the commit as unverified.
+
+```
+git config --global user.name "[Name]"
+git config --global user.email "[Email"
+```
+
 ## References
 
 [Gitlab](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh.html)
