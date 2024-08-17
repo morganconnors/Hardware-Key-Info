@@ -75,3 +75,7 @@ Alternatively, if you don't want to use the ```-S``` flag every time, you can te
 ```
 git config --global commit.gpgsign true
 ```
+
+## References
+
+[Gitlab](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh.html)
