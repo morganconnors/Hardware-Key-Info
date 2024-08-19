@@ -8,7 +8,7 @@ Install OpenSSH and libfido2. On linux, OpenSSH comes default (most distros) and
 
 ## Generating the key
 
-I will generate a resident key because my yubikey supports it.
+I will generate a resident key because my yubikey supports it. **Note: This uses FIDO2 resident keys**
 
 ```
 ssh-keygen -t ecdsa-sk -O resident
